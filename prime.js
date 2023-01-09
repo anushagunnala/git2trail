@@ -1,13 +1,21 @@
 let num=10;
-for(let i=1;i<=10;i++){
-let number=i;
+
 let count=0;
-for(let j=1; j<=number;j++){
-  if(number%j==0){
+
+for(let i=1;i<=10;i++){
+
+
+  if(number%i==0){
     count++;
   }
 }
-if(count==2){
- console.log(i);
+  if(count==2){
+ console.log("prime number");
+
 }
+
+else{
+
+console.log("not a prime number");
+
 }
