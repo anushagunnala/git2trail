@@ -19,3 +19,5 @@ else{
 console.log("not a prime number");
 
 }
+
+//I think your code is already fine.
